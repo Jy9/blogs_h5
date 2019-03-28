@@ -1,0 +1,1 @@
+<template name="ed385448"><view class="_view ed385448 heart" style=" {{('left:' + (left + 'px') + ';' + 'top:' + (top + 'px') + ';')}}"><view class="_view ed385448 heart_circle"></view><view class="_view ed385448 heart_circle heart_circle_right"></view></view></template>

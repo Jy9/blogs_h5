@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*每个页面公共css */
+.content {
+  padding-top: 40rpx;
+}
+/* 搜索 */
+.seach {
+  height: 60rpx;
+  color: #eee;
+  border-bottom: 1px solid #dbdbdb;
+}
+

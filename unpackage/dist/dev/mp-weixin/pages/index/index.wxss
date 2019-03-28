@@ -1,0 +1,54 @@
+
+.heart{
+	width:20rpx;
+	height: 20rpx;
+	-webkit-transform: rotateZ(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotateZ(45deg);
+	background: red;
+	position: fixed;
+	top:200px;
+	left:50px;
+	-webkit-animation: heart 2s ease-out;
+	        animation: heart 2s ease-out;
+	-webkit-animation-fill-mode:forwards;
+	        animation-fill-mode:forwards;
+}
+.heart_circle{
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	left:-10rpx;
+	background: red;
+	position: absolute;
+}
+.heart_circle_right{
+	top:-10rpx;
+	left:0px;
+}
+@-webkit-keyframes heart{
+from{
+		-webkit-transform: translateY(0px) rotateZ(45deg);
+		        transform: translateY(0px) rotateZ(45deg);
+		opacity: 1;
+}
+to{
+		-webkit-transform: translateY(-100px) rotateZ(45deg);
+		        transform: translateY(-100px) rotateZ(45deg);
+		opacity: 0;
+}
+}
+@keyframes heart{
+from{
+		-webkit-transform: translateY(0px) rotateZ(45deg);
+		        transform: translateY(0px) rotateZ(45deg);
+		opacity: 1;
+}
+to{
+		-webkit-transform: translateY(-100px) rotateZ(45deg);
+		        transform: translateY(-100px) rotateZ(45deg);
+		opacity: 0;
+}
+}
+
+
