@@ -1,0 +1,48 @@
+.heart.data-v-7fda1ef5 {
+  width: 20rpx;
+  height: 20rpx;
+  position: fixed;
+  -webkit-animation: heart-data-v-7fda1ef5 2s ease-out;
+          animation: heart-data-v-7fda1ef5 2s ease-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  opacity: 0.8;
+}
+.heart_circle.data-v-7fda1ef5 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  left: -10rpx;
+  position: absolute;
+}
+.heart_circle_right.data-v-7fda1ef5 {
+  top: -10rpx;
+  left: 0px;
+}
+@-webkit-keyframes heart-data-v-7fda1ef5 {
+from {
+    -webkit-transform: translateY(0px) rotateZ(45deg) scale(1);
+            transform: translateY(0px) rotateZ(45deg) scale(1);
+    opacity: 1;
+}
+to {
+    -webkit-transform: translateY(-100px) rotateZ(45deg) scale(1.5);
+            transform: translateY(-100px) rotateZ(45deg) scale(1.5);
+    opacity: 0;
+}
+}
+@keyframes heart-data-v-7fda1ef5 {
+from {
+    -webkit-transform: translateY(0px) rotateZ(45deg) scale(1);
+            transform: translateY(0px) rotateZ(45deg) scale(1);
+    opacity: 1;
+}
+to {
+    -webkit-transform: translateY(-100px) rotateZ(45deg) scale(1.5);
+            transform: translateY(-100px) rotateZ(45deg) scale(1.5);
+    opacity: 0;
+}
+}
+

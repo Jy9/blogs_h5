@@ -7,8 +7,15 @@ $font-color:#999;
 $font-small-color:#e4393c;
 $font-nouse-color:#eee;
 
+// 字体大小
+$font-size:14px;
+$font-small-size:12px;
+
 // 间距
 $piece-margin:30upx;
 
 // 边框颜色
 $border:1px solid #dbdbdb;
+
+// 系统状态栏高度
+$bar-height:var(--status-bar-height);

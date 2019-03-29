@@ -1,11 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/sort/sort"
+    "pages/index/sort",
+    "pages/seach/seach"
   ],
   "subPackages": [],
   "window": {
-    "navigationStyle": "custom"
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
   },
   "usingComponents": {},
   "tabBar": {
@@ -21,7 +23,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/sort/sort",
+        "pagePath": "pages/index/sort",
         "iconPath": "static/sort.png",
         "selectedIconPath": "static/sort1.png",
         "text": "分类"

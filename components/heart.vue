@@ -15,13 +15,15 @@
 	}
 </script>
 
-<style>
+<style lang="scss" scoped>
 	.heart{
 		width:20upx;
 		height: 20upx;
 		position: fixed;
 		animation: heart 2s ease-out;
 		animation-fill-mode:forwards;
+		filter:blur(1px);
+		opacity: 0.8;
 	}
 	.heart_circle{
 		width: 100%;
@@ -36,11 +38,11 @@
 	}
 	@keyframes heart{
 		from{
-			transform: translateY(0px) rotateZ(45deg);
+			transform: translateY(0px) rotateZ(45deg) scale(1);
 			opacity: 1;
 		}
 		to{
-			transform: translateY(-100px) rotateZ(45deg);
+			transform: translateY(-100px) rotateZ(45deg) scale(1.5);
 			opacity: 0;
 		}
 	}
