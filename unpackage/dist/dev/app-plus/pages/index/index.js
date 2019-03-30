@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"add_btn.",[1],"data-v-13529eb0 { position: fixed; bottom: ",[0,20],"; left: 0px; right: 0px; margin: auto; background: #45D9B4; width: ",[0,240],"; line-height: ",[0,68],"; text-align: center; color: #fff; border-radius: ",[0,10],"; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

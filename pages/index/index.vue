@@ -8,8 +8,8 @@
 		
 		<!-- 最新 列表 -->
 		
-		<!-- 发布、申请权限 -->
-		<view class="add"> + </view>
+		<!-- 发布按钮 -->
+		<AddBtn></AddBtn>
 		
 		<!-- 心 -->
 		<Heart :heartList="heartList"></Heart>
@@ -18,6 +18,7 @@
 
 <script>
 	import Heart from '@/components/heart.vue'
+	import AddBtn from '@/components/addbtn.vue'
 	import {
 		getRGB,
 		globalData
@@ -25,7 +26,8 @@
 	
 	export default {
 		components:{
-			Heart
+			Heart,
+			AddBtn
 		},
 		data() {
 			return {
@@ -55,18 +57,5 @@
 </script>
 
 <style lang="scss" scoped>
-	.add{
-		position:fixed;
-		width: 90upx;
-		height: 60upx;
-		right: 30upx;
-		bottom:80upx;
-		text-align: center;
-		line-height: 60upx;
-		color: $font-small-color;
-		border-radius: 10upx;
-		border: $border;
-		font-weight: 900;
-		font-size: 50upx;
-	}
+	
 </style>

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/*每个页面公共css */
+.content {
+  width: 100%;
+  min-height: 400px;
+  padding-top: var(--status-bar-height);
+}
+

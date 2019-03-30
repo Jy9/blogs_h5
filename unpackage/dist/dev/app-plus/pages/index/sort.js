@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"seach.",[1],"data-v-c98f87cc { height: ",[0,80],"; color: #eee; border-bottom: 1px solid #dbdbdb; position: relative; }\n.",[1],"seach_btn.",[1],"data-v-c98f87cc { position: absolute; height: ",[0,60],"; line-height: ",[0,60],"; top: ",[0,20],"; left: 0px; padding: 0px ",[0,30],"; }\n",],undefined,{path:"./pages/index/sort.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/sort.wxml') } }));

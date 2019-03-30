@@ -22,8 +22,7 @@
 		position: fixed;
 		animation: heart 2s ease-out;
 		animation-fill-mode:forwards;
-		filter:blur(1px);
-		opacity: 0.8;
+		filter:blur(0.5px);
 	}
 	.heart_circle{
 		width: 100%;
