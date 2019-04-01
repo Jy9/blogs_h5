@@ -1,25 +1,30 @@
 //背景颜色
 $bg-color:#fff;
-$bg-piece-color:#e4393c;
 $bg-btn1-color:#FFBD51;
 $bg-btn2-color:#45D9B4;
 
 //字体颜色
-$font-color:#999;
-$font-small-color:#e4393c;
-$font-nouse-color:#eee;
-$font-nouse-color:#eee;
+$font-color:#666;
+$font-small-color:#FFBD51;
+$font-nouse-color:#999;
+$font-sign-color:#333;
 $font-opposite-color:#fff;
 
 // 字体大小
 $font-size:14px;
+$font-big-size:16px;
 $font-small-size:12px;
+$font-name-size:22px;
 
 // 间距
 $piece-margin:30upx;
 
 // 边框颜色
-$border:1px solid #dbdbdb;
+$border:1px solid #eee;
+
+// 边框圆角
+$border-radius:10upx;
+$border-circle-radius:50%;
 
 // 系统状态栏高度
 $bar-height:var(--status-bar-height);

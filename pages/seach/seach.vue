@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		
+		<view>搜索</view>
 	</view>
 </template>
 

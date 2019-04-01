@@ -14,14 +14,7 @@
 
 <style lang="scss">
 	/*每个页面公共css */
-	*{
-		box-sizing: border-box;
-		font-size: $font-size;
-		color: $font-color;
-	}
 	.content{
-		width: 100%;
-		min-height: 400px;
-		padding-top:$bar-height;
+		color: $font-color;
 	}
 </style>

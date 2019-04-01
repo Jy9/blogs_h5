@@ -23,11 +23,12 @@
 		animation: heart 2s ease-out;
 		animation-fill-mode:forwards;
 		filter:blur(0.5px);
+		z-index: 999;
 	}
 	.heart_circle{
 		width: 100%;
 		height: 100%;
-		border-radius: 50%;
+		border-radius: $border-circle-radius;
 		left:-10upx;
 		position: absolute;
 	}

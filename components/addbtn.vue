@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view>
 		<view class="add_btn">发布</view>
 	</view>
 </template>
@@ -26,6 +26,6 @@
 		line-height: 68upx;
 		text-align: center;
 		color: $font-opposite-color;
-		border-radius: 10upx;
+		border-radius: $border-radius;
 	}
 </style>

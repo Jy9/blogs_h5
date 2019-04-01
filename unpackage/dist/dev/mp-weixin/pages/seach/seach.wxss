@@ -2,8 +2,8 @@
 /* 搜索 */
 .seach.data-v-ef534e6c {
   height: 80rpx;
-  color: #eee;
-  border-bottom: 1px solid #dbdbdb;
+  color: #999;
+  border-bottom: 1px solid #eee;
   position: relative;
 }
 .seach_btn.data-v-ef534e6c {
