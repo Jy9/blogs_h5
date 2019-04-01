@@ -23,10 +23,11 @@
   color: #fff;
 }
 .nav.data-v-e069f3b0 {
-  height: 100rpx;
+  height: 110rpx;
   background: #fff;
-  position: relative;
-  top: -80rpx;
+  position: absolute;
+  width: 750rpx;
+  top: 500rpx;
   border-top-left-radius: 50rpx;
   border-top-right-radius: 50rpx;
   color: #999;

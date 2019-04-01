@@ -15,8 +15,7 @@
 <style lang="scss" scoped>
 	.title{
 		line-height: 40upx;
-		padding-top:20upx;
-		margin-top:30upx;
+		padding-top:50upx;
 		color: $font-sign-color;
 		font-size: $font-big-size;
 		font-weight: 900;
@@ -29,7 +28,7 @@
 		height:40upx;
 		position:absolute;
 		left:30upx;
-		top:20upx;
+		top:50upx;
 		background: $bg-btn2-color;
 	}
 </style>

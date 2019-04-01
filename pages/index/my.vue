@@ -128,10 +128,11 @@
 	}
 	
 	.nav{
-		height: 100upx;
+		height: 110upx;
 		background: $bg-color;
-		position: relative;
-		top:-80upx;
+		position: absolute;
+		width: 750upx;
+		top:500upx;
 		border-top-left-radius: 50upx;
 		border-top-right-radius: 50upx;
 		color: $font-nouse-color;

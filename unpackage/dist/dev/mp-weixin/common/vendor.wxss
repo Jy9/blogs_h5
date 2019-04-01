@@ -121,8 +121,7 @@ to {
 
 .title.data-v-779ef2ae {
   line-height: 40rpx;
-  padding-top: 20rpx;
-  margin-top: 30rpx;
+  padding-top: 50rpx;
   color: #333;
   font-size: 16px;
   font-weight: 900;
@@ -135,7 +134,7 @@ to {
   height: 40rpx;
   position: absolute;
   left: 30rpx;
-  top: 20rpx;
+  top: 50rpx;
   background: #45D9B4;
 }
 
